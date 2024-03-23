@@ -1,0 +1,131 @@
+
+
+   * {
+      box-sizing: border-box;
+    }
+  
+  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+  padding-left: 85px;
+  background-image: linear-gradient(to right, #0D497B, #1886E1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ 
+}
+
+    .header1 {
+     
+        color: #FFFFFF; 
+        font-family: 'Inria Serif';font-size: 15px; 
+        font-weight: bold;
+        text-align:center;
+
+      }
+      .header2 {
+     
+        text-align: center;
+        height: auto;
+        color: #FFFFFF; 
+        font-family: 'Imprint MT Shadow';font-size: 25px; 
+        font-weight: bold;
+      }
+
+
+      .logo  {
+        max-width: 100px;
+      
+        height: auto;
+   
+    }
+
+
+    @media only screen and (max-width: 620px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width: 100%;
+      }
+   
+    }
+
+    @media only screen and (max-width: 425px) {
+            .container{
+                padding-left: 150px;
+              
+            }
+            .header1{
+              display: none;
+            }
+            .header2{
+              display: none;
+            }
+    }
+    @media only screen and (max-width: 375px) {
+        .container{
+            padding-left: 130px;
+          
+        }
+}
+@media only screen and (max-width: 320px) {
+    .container{
+        padding-left: 100px;
+      
+    }
+    .header1{
+      display: none;
+    }
+    .header2{
+      display: none;
+    }
+}
+
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+    }
+    
+    .menu a {
+      background-color: #e5e5e5;
+      padding: 8px;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: black;
+    }
+    
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+    }
+    
+    .right {
+      background-color: #e5e5e5;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+    
+   
+    
+
+ 
+    
